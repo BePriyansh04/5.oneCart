@@ -78,7 +78,7 @@ function Login() {
             <div className='w-[100%] h-[20px] flex items-center justify-center gap-[10px]'>
              <div className='w-[40%] h-[1px] bg-[#96969635]'></div> OR <div className='w-[40%] h-[1px] bg-[#96969635]'></div>
             </div>
-            <div className='w-[90%] h-[400px] flex flex-col items-center justify-center gap-[15px]  relative'>
+            <div className='w-[90%] h-[400px] flex flex-col items-center justify-center gap-[15px]  relative top-auto bottom-[25px]'>
               
                  <input type="text" className='w-[100%] h-[50px] border-[2px] border-[#96969635] backdrop:blur-sm rounded-lg shadow-lg bg-transparent placeholder-[#ffffffc7] px-[20px] font-semibold' placeholder='Email' required  onChange={(e)=>setEmail(e.target.value)} value={email}/>
                   <input type={show?"text":"password"} className='w-[100%] h-[50px] border-[2px] border-[#96969635] backdrop:blur-sm rounded-lg shadow-lg bg-transparent placeholder-[#ffffffc7] px-[20px] font-semibold' placeholder='Password' required onChange={(e)=>setPassword(e.target.value)} value={password}/>
